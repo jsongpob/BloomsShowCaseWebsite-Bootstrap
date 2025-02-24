@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'FC-Sound-Rounded-Bold';
+  src: url('../fonts/FCSoundRounded-Bold.otf');
+}
+
+@font-face {
+  font-family: 'FC-Sound-Rounded-Regular';
+  src: url('../fonts/FCSoundRounded-Regular.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'FC-Sound-Rounded-Light';
+  src: url('../fonts/FCSoundRounded-Light.otf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'FC-Sound-Rounded-Medium';
+  src: url('../fonts/FCSoundRounded-Medium.otf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'FC-Sound-Rounded-SemiBold';
+  src: url('../fonts/FCSoundRounded-SemiBold.otf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'FC-Sound-Rounded-ExtraBold';
+  src: url('../fonts/FCSoundRounded-ExtraBold.otf');
+  font-weight: 800;
+}
+
+.FC-Sound-Rounded-Regular {
+  font-family: 'FC-Sound-Rounded-Regular';
+}
+
+.FC-Sound-Rounded-Light {
+  font-family: 'FC-Sound-Rounded-Light';
+}
+
+.FC-Sound-Rounded-Medium {
+  font-family: 'FC-Sound-Rounded-Medium';
+}
+
+.FC-Sound-Rounded-SemiBold {
+  font-family: 'FC-Sound-Rounded-SemiBold';
+}
+
+.FC-Sound-Rounded-ExtraBold {
+  font-family: 'FC-Sound-Rounded-ExtraBold';
+}
+
+.FC-Sound-Rounded-Bold {
+  font-family: 'FC-Sound-Rounded-Bold';
+}
+
+.outline-button-dark {
+  transition: 0.5s;
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 100px;
+}
+
+.outline-button-dark:hover {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #FFF;
+  border-radius: 100px;
+}
+
+.outline-button-white {
+  transition: 0.5s;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  color: #FFF;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.outline-button-white:hover {
+  background-color: #FFF;
+  border: 1px solid #FFF;
+  color: #000;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.logo-symbols {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.video-section {
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.video-background {
+  position: relative;
+  width: 98%;
+  height: 100%;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.video-element {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-overlay-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.video-title {
+  width: 100%;
+  height: 100%;
+}
+
+.video-subtitle {
+  font-size: 2.5rem;
+  font-family: 'FC-Sound-Rounded-Regular';
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .video-background {
+    width: 98%;
+    height: 100%;
+    border-radius: 70px;
+  }
+
+  .video-overlay-background {
+    border-radius: 70px;
+  }
+
+  .video-element {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .video-section {
+    position: relative;
+    height: 40vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .video-subtitle {
+    font-size: 1.5rem;
+    font-family: 'FC-Sound-Rounded-Regular';
+  }
+
+  .video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    margin-top: 0%;
+  }
+}
