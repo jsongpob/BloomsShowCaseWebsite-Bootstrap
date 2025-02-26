@@ -8,20 +8,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid p-2 px-4">
-          <img src="/images/logo/logo-mark-dark.svg" class="navbar-brand logo-symbols">
+          <img src="./images/logo/logo-mark-dark.svg" class="navbar-brand logo-symbols">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse FC-Sound-Rounded-Regular" id="navbarNav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
               <li class="nav-item mx-2">
-                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item mx-2">
                 <a class="nav-link" href="#about">About</a>
@@ -47,28 +49,143 @@
       <div class="video-section">
         <div class="video-background">
           <video autoplay muted loop class="video-element">
-            <source src="/videos/blooms-preview-highlight.mp4" type="video/mp4">
+            <source src="./videos/blooms-preview-highlight-optimize.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           <div class="video-overlay-background"></div>
         </div>
         <div class="video-overlay">
-          <img src="/images/logo/logo-full-light.svg" class="my-3 video-title">
-          <p class="video-subtitle">Let your mind bloom in your own relaxing space</p>
+          <img src="./images/logo/blooms-logo-colors-3d.png" class="my-3 video-title animate__animated animate__fadeIn animate__delay-1s">
+          <h1 class="video-subtitle display-6 animate__animated animate__fadeIn animate__delay-2s">Let your mind bloom in your own relaxing space</h1>
           <div class="mt-5">
-            <a class="FC-Sound-Rounded-Regular outline-button-white px-5 py-2 text-center" href="#highlight">Explore the project</a>
+            <a class="FC-Sound-Rounded-Regular outline-button-white px-5 py-2 text-center h6 animate__animated animate__fadeIn animate__delay-3s" href="#highlight">Explore</a>
           </div>
         </div>
       </div>
     </section>
 
     <section id="highlight">
-      <div class="container-fluid text-center mt-5">
-        <h3 class="FC-Sound-Rounded-Regular">Highlight</h3>
-        <h1 class="FC-Sound-Rounded-SemiBold">What it make “blooms” different?</h1>
+      <div class="container-fluid mt-5">
+        <div class="text-center">
+          <h3 class="FC-Sound-Rounded-Regular section-subtitle d-inline-flex p-2 animate__animated animate__zoomIn">Highlight</h3>
+          <h1 class="FC-Sound-Rounded-SemiBold animate__animated animate__fadeIn">What it make “blooms” different?</h1>
+        </div>
+
+        <!-- card section -->
+        <div>
+          <div class="row row-cols-1 row-cols-lg-3 mt-1 px-xxl-5 mx-xxl-5 px-xl-2 mx-xl-2 px-1">
+
+            <div class="col-sm-6 mb-sm-0 p-1 p-xl-2 animate__animated animate__fadeIn" data-aos="zoom-in" data-aos-anchor-placement="top-buttom">
+              <div class="card text-bg-dark highlight-card-style-01">
+                <div class="card-body">
+                  <div class="card-img-overlay highlight-card-title-style-01 d-flex align-self-end p-5">
+                    <div class="">
+                      <h1 class="card-title FC-Sound-Rounded-SemiBold">Spatial Computing Era</h1>
+                      <h5 class="card-text FC-Sound-Rounded-Light">ยุคสมัยที่เปลี่ยนไปของเทคโนโลยี ที่กำลังก้าวเข้าสู่โลกแห่งการประมวลผลเชิงพื้นที่ ที่ไม่ได้อยู่แค่ในหน้าจออีกต่อไป แต่มันกำลังจะอยู่บนทุกที่ในพื้นที่ของคุณเอง</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 mb-sm-0 p-1 p-xl-2 animate__animated animate__fadeIn" data-aos="zoom-in" data-aos-anchor-placement="top-buttom">
+              <div class="card text-bg-dark highlight-card-style-02">
+                <div class="card-body">
+                  <div class="card-img-overlay highlight-card-title-style-01 d-flex align-self-end p-5">
+                    <div class="">
+                      <h1 class="card-title FC-Sound-Rounded-SemiBold">Your room is a play area</h1>
+                      <h5 class="card-text FC-Sound-Rounded-Light">ห้องของคุณคือพื้นที่แห่งการเล่น! ไม่ว่าห้องของคุณจะเป็นแบบไหน มันจะเปลี่ยนให้ห้องนั้นพิเศษ มากขึ้นไปกว่าเดิม!</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 mb-sm-0 p-1 p-xl-2 animate__animated animate__fadeIn" data-aos="zoom-in" data-aos-anchor-placement="top-buttom">
+              <div class="card text-bg-dark highlight-card-style-03">
+                <div class="card-body">
+                  <div class="card-img-overlay highlight-card-title-style-01 d-flex align-self-end p-5">
+                    <div class="">
+                      <h1 class="card-title FC-Sound-Rounded-SemiBold">Interact magically with your hands</h1>
+                      <h5 class="card-text FC-Sound-Rounded-Light">โต้ตอบแบบพลังวิเศษด้วยมือของคุณ การโต้ตอบ ที่ทันสมัยไม่พึงพาคอนโทรลเลอร์ แต่ใช้มือของคุณเท่านั้น</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 mb-sm-0 p-1 p-xl-2 animate__animated animate__fadeIn" data-aos="zoom-in" data-aos-anchor-placement="top-buttom">
+              <div class="card text-bg-dark highlight-card-style-04">
+                <div class="card-body">
+                  <div class="card-img-overlay highlight-card-title-style-01 d-flex align-self-end p-5">
+                    <div class="">
+                      <h1 class="card-title FC-Sound-Rounded-SemiBold">Have all the freedom to play</h1>
+                      <h5 class="card-text FC-Sound-Rounded-Light">อิสระคือคำตอบของทุกคน “บูลม” ตั้งใจที่อยากจะมอบประสบการณ์แบบอิสระ ให้กับคุณ โดยที่คุณไม่จำเป็นต้องทำตามแบบของเกม!</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 mb-sm-0 p-1 p-xl-2 animate__animated animate__fadeIn" data-aos="zoom-in" data-aos-anchor-placement="top-buttom">
+              <div class="card text-bg-dark highlight-card-style-05">
+                <div class="card-body">
+                  <div class="card-img-overlay highlight-card-title-style-01 d-flex align-self-end p-5">
+                    <div class="">
+                      <h1 class="card-title FC-Sound-Rounded-SemiBold">Every collection is for your</h1>
+                      <h5 class="card-text FC-Sound-Rounded-Light">คุณรางวัลนั้นทำมาเพื่อคุณ การเล่นและเก็บสถิติของคุณนั้นจะทำให้คุณได้ปลดล็อกรางวัลมากมาย</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 mb-sm-0 p-1 p-xl-2 animate__animated animate__fadeIn" data-aos="zoom-in" data-aos-anchor-placement="top-buttom">
+              <div class="card text-bg-dark highlight-card-style-06">
+                <div class="card-body">
+                  <div class="card-img-overlay highlight-card-title-style-01 d-flex align-self-end p-5">
+                    <div class="">
+                      <h1 class="card-title FC-Sound-Rounded-SemiBold">Every day played make it better</h1>
+                      <h5 class="card-text FC-Sound-Rounded-Light">เล่นทุกวันเพื่อทำให้ดีกว่าเดิม คุณจะได้ผ่อนคลายไปกับการเล่นในทุก ๆ วัน การที่คุณเข้ามาเล่น จะได้รับการเก็บสะสมวันต่อเนื่องไปเรื่อย ๆ</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container-fluid mt-5 mb-5 what-is-blooms-section" data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+        <div class="text-center">
+          <h3 class="FC-Sound-Rounded-Regular section-subtitle d-inline-flex p-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">About</h3>
+          <h1 class="FC-Sound-Rounded-SemiBold" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">What is Blooms?</h1>
+        </div>
+        <div class="text-center mt-5 px-5">
+          <h5 class="FC-Sound-Rounded-SemiBold" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">บลูม คือ...</h5>
+          <h4 class="FC-Sound-Rounded-Regular mt-4" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">โปรเจคจุลนิพนธ์ที่มีชื่อเต็มว่า</h4>
+          <h2 class="FC-Sound-Rounded-SemiBold display-6 my-5" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">“การออกแบบและพัฒนาเกมด้วยเทคนิคการประมวลผลเชิงพื้นที่เพื่อสร้างความผ่อนคลาย”</h2>
+          <h4 class="FC-Sound-Rounded-Regular mt-4" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000">โดยมีเป้าหมายเพื่อช่วยลดความเครียดที่เกิดขึ้น ซึ่งกำลังเป็นปัญหาใหญ่ ของคน “Gen Z”  <br> ที่กำลังประสบพบเจอกับสิ่งเหล่านี้ในทุก ๆ วัน โดยที่พวกเขาอาจจะไม่รู้ตัว...</h4>
+        </div>
+      </div>
+
+      <div class="text-center flowstate-section px-5">
+        <div data-aos="zoom-out" data-aos-anchor-placement="top-center" data-aos-duration="1000">
+          <h5 class="FC-Sound-Rounded-Regular" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-delay="100">โดยผ่านทฤษฎีที่เรียกว่า...</h5>
+          <h1 class="FC-Sound-Rounded-SemiBold mb-5 mt-3 display-1" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-delay="200">“สภาวะลื่นไหล”</h1>
+          <h4 class="FC-Sound-Rounded-Regular" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-delay="300">คือสภาวะที่จดจ่อและมีสมาธิอย่างลึกซึ้งกับกิจกรรมใดกิจกรรมหนึ่งจนลืมเวลาและสิ่งรอบข้าง <br> ความรู้สึกนี้มักเกิดขึ้นเมื่อทำสิ่งที่ชอบและมีความเชี่ยวชาญในระดับที่พอเหมาะ</h4>
+        </div>
       </div>
     </section>
   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
