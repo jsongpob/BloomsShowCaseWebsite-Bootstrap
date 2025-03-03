@@ -321,6 +321,68 @@
   display: none;
 }
 
+.technologies-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  height: 100%;
+  color: #FFF;
+  background: #000;
+}
+
+.video-gameplay-preview {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 35px;
+}
+
+.creator-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  height: 100%;
+}
+
+.creator-image-rounded {
+  border-radius: 60px;
+  width: 100%;
+  height: 400px;
+  background-image: url("../images/creator-jsongpob-image.png");
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #eeeeee;
+}
+
+.social-media-section {
+  text-decoration: none;
+  all: unset;
+}
+
+.social-media-icon {
+  transition: 0.5s;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.social-media-icon:hover {
+  opacity: 0.4;
+}
+
+.creator-section-title {
+  margin-top: 0rem;
+}
+
+.footer {
+  color: #bebebe;
+  background-color: #f7f7f7;
+  justify-content: center;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   .video-background {
@@ -376,5 +438,16 @@
 
   .show-section-mobile {
     display: block;
+  }
+
+  .video-gameplay-preview {
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 35px;
+  }
+
+  .creator-section-title {
+    margin-top: 3rem;
   }
 }
